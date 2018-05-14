@@ -122,27 +122,27 @@ défis EIG.
 * SocialConnect
 
 ** Stack(s) : 
-- Langages principaux : python et javascript
-- Backend : Tornado et Flask + Nginx (Python 2.7) pour les webapps, Wordpress pour la landing
+- Langages principaux : python (backend) et javascript (front)
+- Backend : Tornado et/ou Flask + Nginx (Python 2.7) pour les webapps
 - Frontends css : Bulma, Bootstrap
-- Frontend js : Vue.js, ou angular.js ou encore pure websockets (à décider)
+- Frontend js : Vue.js
 - Dataviz : Leaflet.js, charts.js, d3.js... 
 - Données tabulaires (client) : Datatables (?)
 - BDD : principalement MongoDB, Postgres si nécessaire
 
 ** Livrables code : 
 - de manière générale des webapps intéropérables (briques d'un workflow) + documentation : 
-- webapp n°1 de webscraping + API primaire ([OpenScraper](https://github.com/entrepreneur-interet-general/OpenScraper))
+- webapp n°1 de webscraping / API primaire : [OpenScraper](https://github.com/entrepreneur-interet-general/OpenScraper)
 - webapp n°2 d'agrégation / enrichissement de données brutes / API sur les données de la webapp n°1
-- webapp n°3 de dataviz / moteur de recherche sur les données de la webapp n°2
-- webapp n°4 ou landing wordpress + iframes allant taper des modules dans la webapp n°3
+- webapp n°3 de dataviz / moteur de recherche sur les données de la webapp n°2 ou/et de la webapp n°1 : [Carrefour des innovations sociales](https://github.com/entrepreneur-interet-general/CIS-front)
+- webapp n°4 (optionnel) / générateur de widgets ou iframes allant taper l'API dans la webapp n°2 ou/et de la webapp n°1
 
 ** Outils de développement code :
 - VIM : virtualenv
 - Notebook : Jupyter
 - Editeur : Visual studio code
-- Prod : OVH, ... ?
-- Git
+- Prod : nom de domaine OVH, serveur DigitalOcean
+- Git 
 
 ** Livrables UI/UX (à mettre à jour par Elise) :
 - kit de communication du projet 
